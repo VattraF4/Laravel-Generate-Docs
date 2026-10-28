@@ -1,0 +1,11 @@
+@import 'tailwindcss';
+
+/* Add your local Khmer font */
+@font-face {
+    font-family: 'Khmer OS Muol Light';
+    src: url('/fonts/KhmerOSmuollight.ttf') format('truetype'),
+}
+
+.font-khmer-muol-light {
+    font-family: 'Khmer OS Muol Light', sans-serif;
+}
